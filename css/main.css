@@ -147,6 +147,11 @@ width: 11px;
           transition: all 0.6s ease;
 }
 
+h1.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+}
+
 .animated-nav .navbar-brand {
   padding: 15px 0;
 }
@@ -157,6 +162,8 @@ width: 11px;
 
 #navigation > .container {
   border-bottom: 1px solid #636364;
+    background-color: rgba(0,0,0,1);
+
 }
 
 .animated-nav#navigation > .container {
@@ -173,7 +180,7 @@ width: 11px;
 }
 
 .navigation .navbar-nav > li > a {
-  color: #fff;
+  color: #ffffff;
   font-size: 13px;
   font-weight: 600;
   padding: 38px 25px;
@@ -186,7 +193,7 @@ width: 11px;
 }
 
 .animated-nav .navigation .navbar-nav > li.current > a {
-  color: #fff;
+  color: #ffffff;
   border-bottom: 1px solid #fff;
 }
 
@@ -270,7 +277,7 @@ width: 11px;
 }
 
 #home-carousel .carousel-inner p {
-  color: #FFFFFF;
+  color: #ffffff;
   line-height: 28px;
   font-size: 13px;
   margin-top: 0;
@@ -278,8 +285,8 @@ width: 11px;
 }
 
 #nav-arrows > a {
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid #ffffff;
+  color: #ffffff;
   display: block;
   height: 60px;
   line-height: 76px;
@@ -308,7 +315,7 @@ width: 11px;
 #nav-arrows > a.sl-next:hover {
     background-color: #009EE3;
     border-color: #009EE3;
-    color: #fff;
+    color: #ffffff;
 }
 
 .carousel-indicators .active {
@@ -401,7 +408,7 @@ width: 11px;
 
 .service-features {
   background-color: #0f748f;
-  color: #fff;
+  color: #ffffff;
   height: 335px;
   padding: 50px 0 50px 65px;
   position: absolute;
@@ -450,7 +457,7 @@ width: 11px;
 .project-filter ul li a:hover,
 .project-filter ul li a.active {
     background-color: #00C7FC;
-    color: #fff;
+    color: #ffffff;
 }
 
 .mix {
@@ -483,10 +490,10 @@ width: 11px;
 }
 
 figcaption.mask {
-  background-color: #fff;
+  background-color: #ffffff;
   bottom: -101px;
   left: 0;
-  padding: 30px 0 30px 30px;
+  padding: 10px 0 10px 30px;
   position: absolute;
   width: 100%;
     
@@ -541,7 +548,7 @@ figcaption.mask span {
 }
 
 .fact-item {
-  color: #fff;
+  color: #ffffff;
 }
 
 .fact-icon {
@@ -648,7 +655,7 @@ figcaption.mask span {
 }
 
 .owl-controls .owl-page span {
-  background-color: #fff;
+  background-color: #ffffff;
   border-radius: 20px;
   border: 1px solid #ACACAC;
   display: block;
@@ -719,7 +726,7 @@ figcaption.mask span {
 }
 
 .call-to-action {
-    color: #fff;
+    color: #ffffff;
     font-weight: 600;
 }
 
@@ -823,12 +830,12 @@ figcaption.mask span {
 
 #subscribe {
   background-color: #1f2021;
-  color: #fff;
+  color: #ffffff;
   line-height: 24px;
 }
 
 .subscription-form {
-  color: #fff;
+  color: #ffffff;
   position: relative;
 }
 
@@ -840,8 +847,8 @@ figcaption.mask span {
 
 .subscription-form .subscribe {
   background-color: transparent;
-  border: 1px solid #fff;
-  color: #fff;
+  border: 1px solid #ffffff;
+  color: #ffffff;
   height: 58px;
   text-indent: 60px;
   width: 100%;
@@ -850,7 +857,7 @@ figcaption.mask span {
 .subscription-form #mail-submit {
   background-color: #00c7fc;
   border: 0 none;
-  color: #fff;
+  color: #ffffff;
   padding: 16px 35px;
   position: absolute;
   right: 1px;
@@ -899,6 +906,8 @@ figcaption.mask span {
 
 
 
+
+
 /*============================================================
     Footer
 ============================================================*/
@@ -918,7 +927,7 @@ figcaption.mask span {
 
 .footer-social h3 {
     font-size: 20px;
-    color: #fff;
+    color: #ffffff;
     text-transform: uppercase;
     margin-bottom: 20px;
     padding-bottom: 20px;
@@ -926,7 +935,7 @@ figcaption.mask span {
 }
 
 .footer-social h3:after {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #ffffff;
   bottom: 0;
   content: "";
   display: block;
@@ -937,7 +946,7 @@ figcaption.mask span {
 }
 
 .footer-social ul li a {
-  color: #fff;
+  color: #ffffff;
   display: block;
   margin: 0 8px;
 }
@@ -949,7 +958,7 @@ figcaption.mask span {
 .copyright {
     font-size: 15px;
     font-weight: 600;
-    color: #fff;
+    color: #ffffff;
 }
 
 .copyright a {
@@ -957,7 +966,7 @@ figcaption.mask span {
 }
 
 .copyright a:hover {
-    color: #fff;
+    color: #ffffff;
 }
 
 .copyright p {
@@ -967,3 +976,54 @@ figcaption.mask span {
 .copyright p:first-child {
     margin-bottom: 15px;
 }
+
+
+
+.scrollup {
+    text-align:center;
+    cursor:pointer;
+    vertical-align:middle;
+    width:39px;
+    height:39px;
+    border-radius:5px;
+    font-size:20px;
+    position:fixed;
+    bottom:30px;
+    right:20px;
+    border:1px solid #ffffff;
+    display:none;
+    background: #00C7FC;
+}
+/*From Pluton*/
+.scrollup > a {
+    position:relative;
+    top:7px;
+    color:#ffffff;
+}
+
+.portfolio-item img {
+    height: 160px;
+}
+
+.smalltext {
+    font-size: 12px;
+    color: white;
+    padding-bottom: -30px;
+    display: block;
+}
+
+.smalltext a:link {
+    color: white;
+}
+
+/* visited link */
+.smalltext a:visited {
+    color: white;
+}
+
+/* mouse over link */
+.smalltext a:hover {
+    color: white;
+}
+
+
